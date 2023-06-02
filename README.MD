@@ -4,4 +4,4 @@ this is class 16
 i printed my first commit log
 i made my first commit
 
-New Era Solution Academy
+New Era Solution Academy.
