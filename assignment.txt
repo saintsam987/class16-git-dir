@@ -1,0 +1,39 @@
+git specifiers
+1 Commit Hash
+2 Branch Names
+3 Tags
+4 Relative References
+5 Commit Ranges
+
+pretty formats
+1 %Cred
+switch color to red
+2 %Cgreen
+switch color to green
+3 %Cblue
+switch color to blue
+4 %Creset
+reset color
+5 %C(..)
+color specification
+6 %H
+commit hash
+7 %h
+abbreviated commit hash
+8 %T
+tree hash
+9 %t
+abbreviated tree hash
+10 %P
+parent hashes
+11 %an
+author name
+12 %ae
+author email
+13 %ad
+author date 
+12 %cn
+committer name
+13 %ce
+committer email
+etc
