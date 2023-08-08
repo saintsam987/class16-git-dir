@@ -10,7 +10,7 @@ jobs:
     - name: checkout code
       uses:  actions/checkout@v3  
       with: 
-        repository: '{Newerasolutionsa}/{https://github.com/Newerasolutiona/my-simple-python-application.git}'
+        repository: '{Newerasolutionsa}/{my-simple-python-application}'
 
    
         
