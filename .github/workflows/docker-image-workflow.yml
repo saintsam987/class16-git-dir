@@ -8,6 +8,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: checkout code
-      uses:  actions/checkout@v3
+      uses:  actions/checkout@v3  
+
+    - name: Build
+      run: |
+        echo: "Docker build"
+    - name: Tag Docker Image
+      run: |
+        echo: "Tag Docker Image"
+    - name: Docker push image
+      run: |
+        echo "Docker push image" 
+        
 
 
