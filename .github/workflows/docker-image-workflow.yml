@@ -1,18 +1,11 @@
-name: docker-image-workflow
-on: 
-  push:
-    branches:
-      - master
+name: Publish Docker Image
+on: push
 jobs:
-  build:
+  push_docker_image_to_registory:        
+    name: Push Docker Image to Registory
     runs-on: ubuntu-latest
-    steps:
-    - name: checkout code
-      uses:  actions/checkout@v3  
-      with: 
-        repository: '{Newerasolutionsa}/{my-simple-python-application}'
 
-   
-        
-
-
+    steps: 
+      - name: Check out Repo 
+      - uses: actions/checkout@v3
+    
